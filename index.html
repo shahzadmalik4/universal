@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Stationary</title>
+
+    <!-- Bootstrape 5 CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <script src="images/https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+    <script src="images/https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+   
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        
+    </style>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #fefefe;
+        font-family: sans-serif;
+
+    }
+
+    .heading1{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .container1{
+        width: 90%;
+        margin: 50px auto;
+    }
+    .row1{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .card1{
+        width: 30%;
+        background: #fff;
+        border: 1px solid #ccc;
+        margin-bottom: 50px;
+        transition: 0.3s;
+    }
+
+    .card1-header1{
+    text-align: center;  
+       color: #fff;
+    }
+
+    .card1-body1{
+        padding: 30px 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .card1-body1 .btn1{
+     display: block;
+     color: #fff;
+     text-align: center;
+     background: linear-gradient(to right,#ff416c, #ff4b2b);
+     margin-top: 30px;
+     text-decoration: none;
+     padding: 10px 5px;
+    }
+
+    .card1:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 40px -10 rgba(0,0,0,0.25);
+
+    }
+
+    .card1-header1 .img1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+/* responsive */
+
+@media screen and (max-width:1000px){
+.card1{
+    width: 40%;
+}
+}
+
+
+@media screen and (max-width:620px){
+.container1{
+    width: 100%;
+}
+
+.heading1{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.card1{
+    width: 80%;
+}
+}
+
+
+</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+
+        <div class="container">
+        <!-- <a href="#" class="navbar-brand">UNIVERSAL STATIOBARY</a> -->
+    
+    
+        <button class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+            <!-- <span class="navbar-material-icons">
+                <img src="baseline_close_black_24dp.png" alt="">
+            </span> -->
+           
+                
+        </button>
+    
+    <div class="collapse navbar-collapse  justify-content-between"  id="navbar">
+        <a href="#" class="navbar-brand">UNIVERSAL STATIOBARY</a>
+        <ul class="navbar-nav text-center ml-auto text-dark">
+            <li class="nav-item menu">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+    
+            <!-- <li class="nav-item">
+                <a href="" class="nav-link">About</a>
+            </li> -->
+    
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Brands</a>
+                <ul class="dropdown-menu text-center">
+                  <li><a class="dropdown-item" href="TYPO.html" >TYPO</a></li>
+                  <li><a class="dropdown-item" href="SAKURA.html">SAKURA</a></li>
+                  <li><a class="dropdown-item" href="STAEDTLER.html">STAEDTLER</a></li>
+                  <li><a class="dropdown-item" href="FA-CASTELL.html">FA-CASTELL</a>
+                </li>
+    
+    
+                  
+                </ul>
+    
+                </li>
+    
+    
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Products</a>
+                    <ul class="dropdown-menu text-center">
+                      <li><a class="dropdown-item" href="TYPO.html" >Pencil</a></li>
+                      <li><a class="dropdown-item" href="#">COLORS Markers</a></li>
+                      <li><a class="dropdown-item" href="#">Books</a></li>
+                 
+                    </li>
+        
+        
+                      
+                    </ul>
+        
+                    </li>
+    
+        
+            <li class="nav-item">
+                <a href="comparison page.html" class="nav-link">Compair</a>
+            </li>
+        
+        </ul>
+    </div>
+    </div>
+    
+    </nav>
+  
+    <div class="container-fluid p-0">
+        <div class="carousel slide" id="s1" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="100">
+                  <img src="./images/s1.png" alt="slider1img" width="100%" height="500px">
+                </div>
+                <div class="carousel-item" data-interval="100">
+                    <img src="./images/s2.png" alt="slider2img" width="100%" height="500px">
+                  </div>
+                  <div class="carousel-item" data-interval="100">
+                    <img src="./images/s3.png" alt="slider3img" width="100%" height="500px">
+                  </div>
+                  <div class="carousel-item" data-interval="100">
+                    <img src="./images/s5.png" alt="slider3img" width="100%" height="500px">
+                  </div>
+                  <div class="carousel-item" data-interval="100">
+                    <img src="./images/s6.png" alt="slider3img" width="100%" height="500px">
+                  </div>
+                  <div class="carousel-item" data-interval="100">
+                    <img src="./images/s7.png" alt="slider3img" width="100%" height="500px">
+                  </div>
+                  <div class="carousel-item" data-interval="100">
+                    <img src="./images/s8.png" alt="slider3img" width="100%" height="500px">
+                  </div>
+        
+            </div>
+        
+        
+            <ul class="carousel-indicators">
+                <li data-bs-target="#s1" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#s1" data-bs-slide-to="1" class=""></li>
+                <li data-bs-target="#s1" data-bs-slide-to="2" class=""></li>
+                <li data-bs-target="#s1" data-bs-slide-to="3" ></li>
+                <li data-bs-target="#s1" data-bs-slide-to="4" class=""></li>
+                <li data-bs-target="#s1" data-bs-slide-to="5" class=""></li>
+                <li data-bs-target="#s1" data-bs-slide-to="6" class=""></li>
+            </ul>
+        
+        
+            <a href="#s1" data-bs-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+        </a>
+            
+        <a href="#s1"  data-bs-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+            </a>
+        
+        </div>
+        
+        </div>
+        
+
+<div class="container-fluid">
+    <div class="heading1">
+        <h1 class="text-center py-3">Latest Product</h1>
+    </div>
+      
+      <div class="row1">
+          <div class="card1">
+              <div class="card1-header1">
+                  <img class="img1" src="https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-typo/default/dw6770c167/145663/145663-189-2.jpg?sw=640&sh=960&sm=fit" alt="" width="100%" height="250px">
+              </div>
+
+              <div class="card1-body1">
+                <h1>TYPO</h1>
+                  <p>A4 Notebook </p>
+                  <span>Rs:800</span>
+                  <span><del>1000</del></span>
+                  <a href="#" class="btn1">Details</a>
+              </div>
+
+            
+
+          </div>
+
+
+          <div class="card1">
+              <div class="card-header1">
+                  <img class="img1" src="https://www.sakuraofamerica.com/wp-content/uploads/2020/06/Koi-ColoringBrushPen.png" alt="" width="100%" height="250px">
+              </div>
+
+              <div class="card1-body1">
+                <h1>SAKURA</h1>
+                  <p>Koi Tubes</p>
+                  <span>Rs:700</span>
+                  <span><del>800</del></span>
+                  <a href="#" class="btn1">Details</a>
+              </div>
+
+            
+
+          </div>
+
+
+          <div class="card1">
+              <div class="card1-header1">
+                  <img class="img1" src="https://www.faber-castell.com/-/media/Products/Product-Repository/Jumbo-GRIP-pencils/24-24-01-Pencil/111993-Graphite-pencil-Jumbo-Grip-Two-Tone-BC/Images/111993_10_PM1.ashx?bc=ffffff&w=273&h=290&as=0&la=en-Glob&hash=566D17C6ABC034F743E1641703C78D0BB37A5930" alt="" width="100%" height="250px">
+              </div>
+
+              <div class="card1-body1">
+                <h1>FA-CASTELL</h1>
+                  <p>Two Jumbo Grip pencil</p>
+                  <span>Rs:100</span>
+                  <span><del>200</del></span>
+                  <a href="#" class="btn1">Details</a>
+              </div>
+
+            
+
+          </div>
+
+
+          <!-- <div class="card1">
+              <div class="card1-header1">
+                  <img class="img1" src="images/https://e.staedtlercdn.com/product-images/_processed_/f/9/csm_2883371_Productpicture_04e140a823.jpeg" alt="" width="100%" height="250px">
+              </div>
+
+              <div class="card1-body1">
+                <h1>STAED
+                    <br>TLER</h1>
+                <p>Two Tone Jumbo Grip graphite pencil</p>
+                  <span>Rs:200</span>
+                  <span><del>400</del></span>
+                  <a href="#" class="btn1">Details</a>
+              </div>
+             -->
+
+          </div>
+      </div>
+
+
+      <div class="heading1">
+        <h1 class="text-center py-3">Upcoming Product</h1>
+    </div>
+      
+    <div class="row1">
+        <div class="card1">
+            <div class="card1-header1">
+                <img class="img1" src="https://e.staedtlercdn.com/product-images/_processed_/c/6/csm_2904391_Productpicture_577d204b98.jpeg" alt="" width="100%" height="250px">
+            </div>
+
+            <div class="card1-body1">
+              <h1>TYPO</h1>
+                <p>Fashion Pencil Pack </p>
+                <span>Rs:500</span>
+                <span><del>1000</del></span>
+                <a href="#" class="btn1">Details</a>
+            </div>
+
+          
+
+        </div>
+
+
+        <div class="card1">
+            <div class="card-header1">
+                <img class="img1" src="https://e.staedtlercdn.com/product-images/_processed_/f/9/csm_2883371_Productpicture_04e140a823.jpeg" alt="" width="100%" height="250px">
+            </div>
+
+            <div class="card1-body1">
+                <h1>STAEDTLER</h1>
+                <p>Mars® Lumograph® 100</p>
+                <span>Rs:200</span>
+                <span><del>400</del></span>
+                <a href="#" class="btn1">Details</a>
+            </div>
+
+          
+
+        </div>
+
+
+        <div class="card1">
+            <div class="card1-header1">
+                <img class="img1" src="https://www.sakuraofamerica.com/wp-content/uploads/2020/06/PencilsErasers-XS12.png" alt="" width="100%" height="250px">
+            </div>
+
+            <div class="card1-body1">
+                <h1>SAKURA</h1>
+                <p>Mechanical Pencil</p>
+                <span>Rs:400</span>
+                <span><del>800</del></span>
+                <a href="#" class="btn1">Details</a>
+            </div>
+
+          
+
+        </div>
+
+
+
+        </div>
+
+      <div class="heading1">
+        <h1 class="text-center py-3">Features Product</h1>
+    </div>
+    <div class="row1">
+        <div class="card1">
+            <div class="card1-header1">
+                <img class="img1" src="https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-typo/default/dwfad544bb/1684528/1684528-01-2.jpg?sw=640&sh=960&sm=fit" alt="" width="100%" height="250px">
+            </div>
+
+            <div class="card1-body1">
+              <h1>TYPO</h1>
+                <p>The Square Up Highlighter</p>
+                <span>Rs:2000</span>
+                <span><del>4000</del></span>
+                <a href="#" class="btn1">Details</a>
+            </div>
+
+          
+
+        </div>
+
+
+        <div class="card1">
+            <div class="card-header1">
+                <img class="img1" src="https://www.sakuraofamerica.com/wp-content/uploads/2020/06/sumogrip_pencil2.jpg" alt="" width="100%" height="250px">
+            </div>
+
+            <div class="card1-body1">
+              <h1>SAKURA</h1>
+                <p>SumoGrip Pencil</p>
+                <span>Rs:400</span>
+                <span><del>800</del></span>
+                <a href="#" class="btn1">Details</a>
+            </div>
+
+          
+
+        </div>
+
+
+        <div class="card1">
+            <div class="card1-header1">
+                <img class="img1" src="https://e.staedtlercdn.com/product-images/_processed_/1/9/csm_3056954_Productpicture_3aeb2e4237.jpeg" alt="" width="100%" height="250px">
+            </div>
+
+            <div class="card1-body1">
+              <h1>STAEDTLER</h1>
+                <p>triplus® color 323</p>
+                <span>Rs:1500</span>
+                <span><del>3000</del></span>
+                <a href="#" class="btn1">Details</a>
+            </div>
+
+
+        </div>
+
+
+        </div>
+   </div>
+
+
+
+   
+</div>
+
+
+
+
+
+
+<footer>
+    <div class="container-fluid text-center text-md-left bg-dark text-white">
+        <div class="row text-center text-md-left u-footer">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
+                <h5 class="text-uppercase mb-4 font-weight-bold  footer-content">About Us</h5>
+                <hr class="mb-4 footer-hr">
+                <p class="footer-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veritatis unde voluptates placeat aut enim nesciunt, fuga labore, recusandae perferendis iure. Fuga at dicta quas ipsum distinctio aperiam cumque. Culpa.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-white">
+                <h5 class="text-uppercase mb-4 font-weight-bold footer-content">Menu</h5>
+                <hr class="mb-4 footer-hr">
+                <p>
+                    <a href="#" class="footer-content text-white" style="text-decoration: none;">Home</a>
+                </p>
+                <p>
+                    <a href="#" class="footer-content text-white" style="text-decoration: none;">New</a>
+                </p>
+                <p>
+                    <a href="#" class="footer-content text-white" style="text-decoration: none;">Products</a>
+                </p>
+                <p>
+                    <a href="#" class="footer-content text-white" style="text-decoration: none;">Contact Us</a>
+                </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold footer-content">Earn Cash</h5>
+                <hr class="mb-4 footer-hr">
+                <p>
+                    <a href="#" class="footer-content text-white" style="text-decoration: none;">Become an affilate</a>
+                </p>
+                <p>
+                    <a href="#" class="footer-content text-white" style="text-decoration: none;">Publish Your Porducts</a>
+                </p>
+                <p>
+                    <a href="#" class="footer-content text-white" style="text-decoration: none;">Open Stationary Shop</a>
+                </p>
+                <p>
+                    <a href="#" class="footer-content text-white" style="text-decoration: none;">Careers</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold footer-content">Details</h5>
+                <hr class="mb-4 footer-hr">
+                <p>
+                    <li class="fas fa-home mr-3 footer-content"></li> <span class="footer-content">Aptech Shahrah-e-Faisal</span>
+                </p>
+                <p>
+                    <li class="fas fa-envelope mr-3 footer-content"></li> <span class="footer-content">Universalshop187@gmail.com</span>
+                </p>
+                <p>
+                    <li class="fas fa-phone mr-3 footer-content"></li> <span class="footer-content">(+92)03342118</span>
+                </p>
+                <p>
+                    <li class="fas fa-print mr-3 footer-content"></li> <span class="footer-content">03342118</span>
+                </p>
+            </div>
+            <hr class="mb-4 footer-hr">
+            <div class="row d-flex justify-content-center">
+                <section>
+                    <p class="footer-content" >
+                        Copyright &copy; 2022 All Rights Reserved By :
+                        <a href="#">
+                            <strong class="footer-content text-white" style="text-decoration: none">Universal Stationary</strong>
+                        </a>
+                    </p>
+                </section>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+   
+</body>
+</html>

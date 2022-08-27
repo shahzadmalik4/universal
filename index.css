@@ -1,0 +1,42 @@
+.flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.flex-box{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    margin: 20px;
+    display: block;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.flex-container1{
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer1{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    display: block;
+    margin: 0px;
+}
+
+.footer1 ul li{
+    list-style-type: none;
+}

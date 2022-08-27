@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<script>
+    function login()
+    {
+        var uname = document.getElementById("a").value;
+        var pass = document.getElementById("b").value;
+        
+        var er= document.getElementById("er1");
+        var er2= document.getElementById("er3");
+
+        if(uname == "admin" && pass== "123")
+        {
+          alert("Login Successfully");
+            window.open("new.html","_self")
+        }
+
+        else{
+            alert("Not login");
+        }
+    }
+</script>
+</head>
+<body>
+    
+    <form>
+        <label>Name:</label>
+        <input type="text"  id="a">
+        <span id="er1" style="color: red; display: none;">please enter your name</span>
+
+        <label>Password:</label>
+        <input type="password" id="b">
+        <span id="er3" style="color: red; display: none;">please enter your name</span>
+        <input type="button" value="login" ondblclick="login()">
+    </form>
+</body>
+</html>
